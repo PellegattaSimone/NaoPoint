@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="naopoint" version="0.0.1" installOnlyAtStartup="false">
+ <names>
+  <name lang="en_US">Flask Request</name>
+  <name lang="it_IT">Richiesta Flask</name>
+ </names>
+ <descriptions>
+  <description lang="en_US">Choregraphe repository for NaoPoint project.</description>
+  <description lang="it_IT">Repository di Choregraphe per il progetto NaoPoint</description>
+ </descriptions>
+ <supportedLanguages>
+  <language>en_US</language>
+  <language>it_IT</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+  <language>it_IT</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <names>
+    <name lang="en_US">Behavior</name>
+   </names>
+   <permissions/>
+  </behaviorContent>
+  <dialogContent topicName="Museo" typeVersion="1.0">
+   <topic language="en_US" path="Museo/Museo_enu.top"/>
+   <topic language="it_IT" path="Museo/Museo_iti.top"/>
+  </dialogContent>
+  <dialogContent topicName="Opere" typeVersion="1.0">
+   <topic language="en_US" path="Opere/Opere_enu.top"/>
+   <topic language="it_IT" path="Opere/Opere_iti.top"/>
+  </dialogContent>
+ </contents>
+ <requirements>
+  <naoqiRequirement maxVersion="2.8" minVersion="2.8"/>
+  <robotRequirement model="NAO"/>
+ </requirements>
+</package>

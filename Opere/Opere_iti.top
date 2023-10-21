@@ -1,0 +1,21 @@
+topic: ~Opere()
+language: iti
+
+concept:(Saluti) [Ciao "Ciao Nao" Buongiorno "Buongiorno Nao" Hey]
+concept:(Graticcio) [Graticcio {per bachicoltura}]
+concept:(Torcitoio) [Torcitoio {circolare}]
+concept:(Colori) ["{Scatola dei} colori" tintura colorante]
+concept:(Incannatoio) ["Incannatoio {a pedale}"] 
+concept:(Ruota) ["Ruota {idraulica}" "{Grandi} ruote"]
+concept:(bagno) [Servizi Bagno Bagni Toilet]
+concept:(Sì) [Sì Certo "Sono interessato" "Va bene" Ok Certamente Sicuramente Assolutamente]
+concept:(No) [No Negativo Non]
+concept:(Finale) [Grazie "Grazie Nao"]
+concept:(Altro) ["Altre informazioni"]
+concept:(Allevamento) [Allevamento primo]
+concept:(Produzione) [produzione seconda]
+concept:(Opera) [Opere opera Prima Prime attrazioni]
+concept:(stanze) [stanze visitare stanza secondo seconda]
+concept:(Elenco) [elenco seconda secondo]
+concept:(Sala1) ["{dal} baco * filo {da seta}" seconda]
+concept:(Volantino) [Volantino Volantini Depliant Distributore Pulsante]

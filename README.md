@@ -1,6 +1,6 @@
-# Controller
+# NaoPoint
 
-Controller for the NaoPoint project.
+Main NaoPoint repository containing https://githhub.com/NaoPoint/Controller, https://github.com/NaoPoint/TvScreen, https://github.com/NaoPoint/FlaskRequest and https://github.com/NaoPoint/Hologram
 
 ## Getting Started
 
@@ -8,9 +8,9 @@ How to run this app:
 
 - clone the repository
 
-- clone https://github.com/NaoPoint/TvScreen, https://github.com/NaoPoint/FlaskRequest and https://github.com/NaoPoint/Hologram
+- place the repositories under C:\Xampp\htdocs on your PC
 
-- place the repositories under C:\Xampp\htdocs\NaoPoint on your PC
+- open the Controller folder to manage the project using wifi.cmd, start.cmd, stop.cmd and hologram.cmd
 
 - required programs: Apache (e.g. using Xampp), Python3, Choregraphe 2.8.6+, VLC, any browser (no internet required)
 
@@ -18,7 +18,7 @@ How to run this app:
 
 ## Warning
 
-This scripts only work on Windows 10 and Windows 11. The NaoPoint project is compatible with other OSes but it needs to be set up manually.
+The scripts in the Controller folder only work on Windows 10 and Windows 11. The NaoPoint project is compatible with other OSes but it needs to be set up manually.
 
 Note that during the execution of the project the primary PC will be configured to use a static IP address. DHCP is restored after a normal closure.
 
